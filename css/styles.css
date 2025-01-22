@@ -643,22 +643,22 @@
   }
   
   .label-grp {
+    display: block;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: block;
     margin-bottom: 4px;
   }
   
   .input-grp {
     display: flex;
+    position: relative;
     border-radius: 4px;
     border: 1px;
     align-items: center;
     padding: 16px;
     gap: 3px;
-    position: relative;
   }
   
   .input-grp:focus-within {
@@ -683,10 +683,11 @@
   .grp-svg {
     position: absolute;
     left: 16px;
-    transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 50%;
+    transform: translateY(-50%); /* Bu stil, dikeyde ortalamayı sağlar */
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+  
   
   .group-two {
     margin-bottom: 16px;
