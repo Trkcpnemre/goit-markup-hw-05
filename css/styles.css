@@ -665,6 +665,12 @@
     border-color: #4d5ae5;
     fill: #4d5ae5;
   }
+
+  .modal-inp {
+    width: 100% !important; /* Bu, style çakışmalarına karşı önlem alır */
+  }
+  
+
   .modal-inp {
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4); /* Border stilini burada tutuyoruz */
