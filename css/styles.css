@@ -653,13 +653,14 @@
   
   .input-grp {
     display: flex;
+    width: 100%
     border-radius: 4px;
     border: 1px solid #2e2f42;
     align-items: center;
     padding: 16px;
     gap: 3px;
     position: relative;
-    width: 100%
+    
   }
   
   .input-grp:focus-within {
@@ -683,10 +684,11 @@
   
   .grp-svg {
     position: absolute;
+    top: 50%;
     left: 16px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    top: 50%;
+    
   }
   
   .group-two {
