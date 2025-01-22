@@ -666,10 +666,6 @@
     fill: #4d5ae5;
   }
 
-  .modal-inp {
-    width: 100% !important; /* Bu, style çakışmalarına karşı önlem alır */
-  }
-  
 
   .modal-inp {
     height: 40px;
@@ -679,9 +675,13 @@
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 100%; /* Genişlik %100 */
-    box-sizing: border-box; /* Border ve padding hesaplamaya dahil edilir */
   }
+
+  .modal-inp {
+    width: 100%;
+    box-sizing: border-box;  /* Border ve padding genişliğe dahil edilir */
+  }
+  
   
   .modal-inp:focus {
     border-color: #4d5ae5;
