@@ -659,6 +659,7 @@
     padding: 16px;
     gap: 3px;
     position: relative;
+    width: 100%
   }
   
   .input-grp:focus-within {
